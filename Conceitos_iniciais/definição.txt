@@ -1,1 +1,8 @@
-As equações lineares não podem ser elevadas , sendo assim só pode ser variaves exclusivas. Ex: 4x + 1/2y - 3z
+As equações lineares não podem ser elevadas , sendo assim só pode ser variaves exclusivas. Ex: x + 2y + 3z = 27, 4x - 1/2y = 5.
+Com o x,y,z sendo as variaveis e os numeros são as constantes, com o objetivo da algebra é encontrar os valores das variaveis
+Equações lineares podem ser representadas como retas (linhas)
+
+Função de x: 
+  4x - 1/2 y = 1
+  - 1/2 y = -4x + 1
+  y = 8x - 2 = f(x)
