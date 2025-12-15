@@ -5,4 +5,5 @@ Equações lineares podem ser representadas como retas (linhas)
 Função de x: 
   4x - 1/2 y = 1
   - 1/2 y = -4x + 1
+  -2 (1/2y) = -2(4x + 1)
   y = 8x - 2 = f(x)
