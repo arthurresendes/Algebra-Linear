@@ -14,3 +14,11 @@ y = Variavel depende
 x = variavel independente (determina valor de y)
 a = coeficiente angular (junto com o x)
 b = coeficiente linear (solo)
+
+
+Coeficiente angular e variavel independente podem repetir , enquanto o coeficiente linear não
+b = y <-> x = 0
+
+
+Escalares: Eles são valores numericos isolados, no caso o coeficiente das equações.
+
