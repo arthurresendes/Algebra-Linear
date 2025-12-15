@@ -38,3 +38,15 @@ print(vector.ndim)
 vector *= 2
 print(vector)
 print(type(vector))
+
+matriz  = np.array([[1,2,3],[4,5,6],[7,8,9]])
+print(matriz)
+print(type(matriz))
+print(matriz.ndim)
+print(matriz[0])
+print(matriz[1][2])
+
+matriz *= 2
+print(matriz)
+print(type(matriz))
+
