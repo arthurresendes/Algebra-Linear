@@ -21,4 +21,6 @@ b = y <-> x = 0
 
 
 Escalares: Eles são valores numericos isolados, no caso o coeficiente das equações.
-
+Vetores: Coleação linear de escalares, ex: y = 5x1 + 3.2x2 - 10 = [5,3.2,10]
+Matrizes: BiDimensional com linhas e colunas
+Tensores: Em algebra são objetos matematicos para representar os escalares, vetores e matrizes
