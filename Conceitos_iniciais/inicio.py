@@ -37,16 +37,43 @@ print(vector.ndim)
 
 vector *= 2
 print(vector)
-print(type(vector))
 
 matriz  = np.array([[1,2,3],[4,5,6],[7,8,9]])
 print(matriz)
-print(type(matriz))
 print(matriz.ndim)
 print(matriz[0])
 print(matriz[1][2])
 
 matriz *= 2
 print(matriz)
-print(type(matriz))
 
+tensor = np.array(
+    [
+        [
+            [1,2,3],
+            [4,5,6] # Lista interna
+        ], # Lista intermediaria     
+        
+        [
+            [7,8,9],
+            [10,11,12] # Lista interna
+        ],  # Lista intermediaria      
+    ] # Lista externa
+)
+
+print(tensor)
+print(tensor.ndim)
+tensor *= 2
+print(tensor)
+
+tensor_tf = tf.convert_to_tensor(tensor)
+print(tensor_tf)
+print(type(tensor_tf))
+
+tensor_pt = torch.tensor(tensor)
+print(tensor_pt)
+print(type(tensor_pt))
+
+
+print(tensor_tf.numpy())
+print(tensor_pt.numpy())
