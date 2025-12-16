@@ -1,4 +1,6 @@
 import numpy as np
+import tensorflow as tf
+import torch
 
 
 escalar = 5**(1/2)
@@ -29,3 +31,28 @@ matriz *= 2
 print(matriz)
 
 
+tensor_np = np.array([
+    [
+        [1,2,3],
+        [4,5,6]
+    ],
+    [
+        [1,2,3],
+        [4,5,6]
+    ],
+])
+
+print(tensor_np)
+print(type(tensor_np))
+print("Numero tensor ndim: ")
+print(tensor_np.ndim)
+tensor_np *= 2
+print(tensor_np)
+
+tensor_tf = tf.convert_to_tensor(tensor_np)
+print(tensor_tf)
+print(type(tensor_tf))
+
+tensor_th = torch.tensor(tensor_np)
+print(tensor_th)
+print(type(tensor_th))
