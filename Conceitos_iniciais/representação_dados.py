@@ -3,11 +3,13 @@ import pandas as pd
 from ucimlrepo import fetch_ucirepo
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
-import sentence_transformers
 from sentence_transformers import SentenceTransformer
 import tensorflow as tf
 import torch
 
+print("== Representação de dados ==")
+
+print("Tabulares(pandas dataframe): ")
 df = pd.DataFrame({
     "número de bebidas": [1, 2, 2, 2],
     "número de entradas": [1, 2, 1, 1],
@@ -18,20 +20,25 @@ df = pd.DataFrame({
 },index=['casal_1','casal_2','casal_3','casal_4'])
 
 df_values = df.values
+print("Printando apenas os valores da tabela: ")
 print(df_values)
 
+print("Camada anterior(apenas valores): ")
 x = df_values[:,0:5]
 print(x)
 
+print("Saída da camada(resultados): ")
 y = df_values[:, 5]
 print(y)
 
+print("Instancia (primeira linha completa): ")
 instacia = df_values[0:1]
 print(instacia)
+
+print("Metodo shape -> (linhas,colunas)")
 print(instacia.shape)
 
 air_quality = fetch_ucirepo(id=360)
-
 x = air_quality.data.features
 print(x)
 
