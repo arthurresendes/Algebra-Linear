@@ -38,22 +38,31 @@ print(instacia)
 print("Metodo shape -> (linhas,colunas)")
 print(instacia.shape)
 
+print("Pegando dados de um repositorio (series temporais): ")
 air_quality = fetch_ucirepo(id=360)
+
+print("A variavel x sempre será a features, que é onde o modelo pega os dados (dados de entrada) para o seu treinamento/previsões")
 x = air_quality.data.features
 print(x)
 
+print("Pegando da coluna 2 até a ultima: ")
 temperatura = x.loc[:,"CO(GT)":'AH']
 print(temperatura)
 
+print("Pegando os valores e colocando como arrays: ")
 temperatura_array = temperatura.values
 print(temperatura_array)
+print("(linha,coluna)")
 print(temperatura_array.shape)
 
+print("Expandindo dimensoes: ")
 temperatura_array_correcao = np.expand_dims(temperatura_array,axis=1)
 print(temperatura_array_correcao)
+print("(batch, timesteps, features)")
+print(temperatura_array_correcao.shape)
 
+print("Podemos representar os dados por imagens: ")
 img = mpimg.imread("praia.jpg")
-
 plt.imshow(img)
 plt.show()
 

@@ -26,3 +26,8 @@ Matrizes: BiDimensional com linhas e colunas (2).
 Tensores: Em algebra são objetos matematicos para representar os escalares, vetores e matrizes (3).
 
 Sistema linear: Conjunto de equações, podendo ter uma solução, infinita soluções ou nenhuma solução
+
+
+Batch -> Linhas do conjunto de dados, instancia/amostra
+Features -> São os dados de entrada para treinar um modelo 
+timesteps -> Pode ser tanto real quanto artificial, com o artificial sendo para treinar o modelo
