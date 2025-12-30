@@ -18,6 +18,14 @@ Vetor unitario: vetor cujo o comprimento(L2) é igual a 1
 Vetor base: vetor unitario que reside nos eixos do sistema cartesiano como i([1,0]) e j([0,1]) que são muito utilizados
 x = vet[0] * i + vet[1] * j
 
+Vetor transposto: Vetor linha que se transforma em coluna e vice e versa.
+Exemplo:
+linha = np.array([[1.2,3.2]])
+coluna = np.array([1.2],[3.2])
+linha_transposta = linha.T ou linha.transpose() ou np.transpose(linha)
+coluna_transposta = coluna.T ou coluna.transpose() ou np.transpose(coluna)
+
+Assim a coluna_transposta vira uma linha e a linha_transposta vira uma coluna
 
 
 
