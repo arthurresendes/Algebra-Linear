@@ -27,6 +27,7 @@ coluna_transposta = coluna.T ou coluna.transpose() ou np.transpose(coluna)
 
 Assim a coluna_transposta vira uma linha e a linha_transposta vira uma coluna
 
-
+Vetores ortogonais: Vetores que mantem 90 graus entre si
+Vetores ortonormais: Vetores ortogonais e tambem unitarios
 
 
