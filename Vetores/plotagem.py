@@ -1,7 +1,5 @@
 import numpy as np
-import matplotlib
 import matplotlib.pyplot as plt
-import sklearn
 
 
 vetor = np.array([7.5,8.25])
