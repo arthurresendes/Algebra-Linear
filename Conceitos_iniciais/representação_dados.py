@@ -5,7 +5,6 @@ import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
 from sentence_transformers import SentenceTransformer
 import tensorflow as tf
-import torch
 
 print("== Representação de dados ==")
 
