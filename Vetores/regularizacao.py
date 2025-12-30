@@ -9,6 +9,7 @@ intercept = 3.0
 # Gerar sempre os mesmo numeros aleatorios
 np.random.seed(10)
 
+# 3 features (colunas)
 x1 = np.random.uniform(0,10, size = 10)
 x2 = np.random.uniform(0,10, size = 10)
 x3 = np.random.uniform(0,10, size = 10)
@@ -16,7 +17,9 @@ print(x1)
 print(x2)
 print(x3)
 
+# Modelo linear
 y = coef_x1 * x1 + coef_x2 * x2 +coef_x3 * x3 + intercept
+# Matriz de features , 10 observações (linhas) e 3 features (colunas)
 unindo_variaveis = np.column_stack((x1,x2,x3))
 
 print(unindo_variaveis)

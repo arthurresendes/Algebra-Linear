@@ -31,3 +31,9 @@ Vetores ortogonais: Vetores que mantem 90 graus entre si
 Vetores ortonormais: Vetores ortogonais e tambem unitarios
 
 
+| Modelo     | Regularização | Zera coeficientes? | Quando usar                   |
+| ---------- | ------------- | ------------------ | ----------------------------- |
+| OLS        | Nenhuma       | ❌                  | Dados limpos, poucas features |
+| Lasso      | L1            | ✅                  | Seleção de features           |
+| Ridge      | L2            | ❌                  | Multicolinearidade            |
+
