@@ -2,3 +2,7 @@ Matrizes são tabelas retangulares, com linhas n e colunas m. Com i sendo a loca
 
 Matriz simetrica: Valores espelhados em torno da diagonal principal
 Matriz diagonal: Todos valores são 0 fora da diagonal principal
+Matriz identidade: Ao multiplicar qualquer matriz por ela mesma, o resultado é a amtriz identidade
+Determinante matriz: multiplica os elementos das diagonais principais e subtrai dos produtos das diagonais secundárias. Não muda o resultadpo se trocar a linha pela coluna e vice e versa
+Matriz inversa: É aquela que, ao ser multiplicada por A, resulta na matriz identidade (I), ou seja, A * A**-1 = I
+mATRIZ ORTOGONAL = A matriz é uma matriz ortogonal quando a multiplicação de A por sua transposta é a a matriz de identidade
