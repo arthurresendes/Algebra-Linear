@@ -8,5 +8,5 @@ matriz_simetrica = np.array([[1, 3, 2, 5],
 
 simetrica_matriz_inversa = np.linalg.inv(matriz_simetrica)
 print(simetrica_matriz_inversa)
-print(np.dot(matriz_simetrica,simetrica_matriz_inversa))
+print(f"Matriz identidade (inversa * normal): \n{np.dot(matriz_simetrica,simetrica_matriz_inversa)}")
 print(np.allclose(np.dot(matriz_simetrica,simetrica_matriz_inversa), np.identity(4)))
