@@ -1,6 +1,4 @@
 import numpy as np
-import scipy
-
 
 matriz = np.array([[1, 1, 2, 2, 10, 127.35],
      [2, 2, 2, 1, 10, 128.10],
