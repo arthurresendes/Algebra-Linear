@@ -1,5 +1,4 @@
 import numpy as np
-import scipy
 
 matriz_simetrica = np.array([[1, 3, 2, 5],
      [3, 2, 8, 1],
