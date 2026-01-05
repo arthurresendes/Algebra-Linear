@@ -1,0 +1,4 @@
+Matrizes são tabelas retangulares, com linhas n e colunas m. Com i sendo a localização da linha e j da coluna
+
+Matriz simetrica: Valores espelhados em torno da diagonal principal
+Matriz diagonal: Todos valores são 0 fora da diagonal principal
