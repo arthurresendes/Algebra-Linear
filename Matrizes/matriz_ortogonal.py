@@ -1,6 +1,4 @@
 import numpy as np
-import scipy
-
 
 matriz_ortogonal = np.array([[1/2,-1/2,1/2,-1/2],[1/2,-1/2,1/2,-1/2],[1/2,-1/2,1/2,-1/2],[1/2,-1/2,1/2,-1/2]])
 
