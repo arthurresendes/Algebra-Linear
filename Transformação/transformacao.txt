@@ -1,0 +1,3 @@
+É possivel transformar um vetor atraves da manipulação do esoaço cartesiano
+
+Um vetor pode ser transformado em outro atraves de uma aplicação(multiplicação) de uma matriz
