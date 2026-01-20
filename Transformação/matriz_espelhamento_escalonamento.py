@@ -1,5 +1,5 @@
 import numpy as np
-from .plotagem import plot_vectors
+from plotagem import plot_vectors
 
 A = np.array([[-1, 0],
               [ 0, 1]])

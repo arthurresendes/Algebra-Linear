@@ -1,5 +1,5 @@
 import numpy as np
-from .plotagem import plot_vectors
+from plotagem import plot_vectors
 
 array_1 = [3, 0]
 array_2 = [0, 3]
@@ -19,3 +19,8 @@ print(area_transformed)
 
 det  = np.linalg.det(A)
 print(det)
+
+area_deformada  = area * det
+area_deformada_transform =  area_transformed * det
+
+print(area_deformada,"\n",area_deformada_transform)
