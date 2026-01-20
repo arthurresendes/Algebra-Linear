@@ -2,8 +2,18 @@
 
 Um vetor pode ser transformado em outro atraves de uma aplicação(multiplicação) de uma matriz
 
+Escalonamento: Um eixo muda(y) e outro não(x). Usamos porcentagem nas matrizes para aletarr valor de y, por exemplo 0.025. Escalonamento = Multplicar coordenadas
+
+Escalonamento Uniforme: Estica tudo igual e preserva os angulos
+
+Rotação: Usa graus, seno e cosseno para girar e muda as direções da reta sem deformação
+
+Cisalhamento: Deforma um objeto, podendo deformar horizontal(x) e vertical(y)
+
+Espelhamento: Espelha e troca o sinal, exemplo: (x, y) → (-x, y)
+
 Determinantes: A = [[a,b],[c,d]] -> det(A) = ad - bc
 
-Inversas = A x A -¹ = I, ou seja matriz normal vezes matriz inversa é igual a matriz identidade
+Inversas = A · A⁻¹ = I, ou seja matriz normal vezes matriz inversa é igual a matriz identidade
 
 Sistemas lineares = A*x = y
