@@ -15,22 +15,21 @@ def plot_vectors(arrays, transformation_matrix):
         plt.arrow(0, 0, *array_transformed, length_includes_head=True, head_width=0.05, color=color_palete[i][1], label=f'array_{i+1}_transformed')
     plt.show()
 
-A = np.array([[-1, 0],
-              [ 0, 1]])
+array_1 = [3, 0]
+array_2 = [0, 3]
 
-B = np.array([[1,  0],
-              [0, -1]])
-
-array_1 = np.array([1, 2])
-array_2 = np.array([3, 4])
+A = np.array([[0.8, 0.3],
+              [0.1, 0.7]])
 
 array_1_transformed = np.matmul(A, array_1)
-print(array_1_transformed)
-plot_vectors([array_1], A)
-plot_vectors([array_1], B)
+array_2_transformed = np.matmul(A, array_2)
+print(array_1_transformed,array_2_transformed)
 
-plot_vectors([array_2], B)
+plot_vectors([array_1, array_2], A)
+area = np.linalg.norm(np.cross(array_1, array_2))
+print(area)
+area_transformed = np.linalg.norm(np.cross(array_1_transformed, array_2_transformed))
+print(area_transformed)
 
-C = np.array([[3, 0],
-              [0, 3]])
-plot_vectors([array_1], C)
+det  = np.linalg.det(A)
+print(det)
