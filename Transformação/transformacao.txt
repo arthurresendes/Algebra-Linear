@@ -17,3 +17,6 @@ Determinantes: A = [[a,b],[c,d]] -> det(A) = ad - bc
 Inversas = A · A⁻¹ = I, ou seja matriz normal vezes matriz inversa é igual a matriz identidade
 
 Sistemas lineares = A*x = y
+
+EigenVector = Vetores q ue, após uma transformação, não mudam de direção
+EigenValues = Valores escalares aplicados aos eigenvectors
