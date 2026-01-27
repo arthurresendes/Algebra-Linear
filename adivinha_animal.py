@@ -14,7 +14,7 @@ galo2 = np.array([0,0,0])
 treino_x = [gato1,gato2,dog1,dog2,galo1,galo2]
 treino_y = [0,0,1,1,2,2]
 
-modelo = LinearSVC()
+modelo = LinearSVC() # Usamos esse pois separa por 'etiquetas'
 modelo.fit(treino_x,treino_y)
 
 res = modelo.predict([np.array([1,0,2])])
