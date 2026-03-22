@@ -1,7 +1,7 @@
 
 ---
 
-## 🧮 3. Algebra-Linear
+## 🧮 Álgebra-Linear
 
 ```markdown name=README.md
 # 🧮 Álgebra Linear
