@@ -1,29 +1,49 @@
-# Álgebra Linear
 
-## Introdução
-A Álgebra Linear é um ramo da matemática que estuda vetores, espaços vetoriais (também conhecidos como espaços lineares), transformações lineares e sistemas de equações lineares. Esta área é fundamental para diversas aplicações em ciências exatas, engenharia, computação, economia, entre outras.
+---
 
-## Conceitos Fundamentais
-### Vetores
-Um vetor é uma entidade que possui magnitude e direção.  No contexto da Álgebra Linear, os vetores são frequentemente representados como listas ordenadas de números, conhecidos como componentes.
+## 🧮 Álgebra-Linear
 
-### Espaços Vetoriais
-Um espaço vetorial é um conjunto de vetores onde é possível realizar operações de adição de vetores e multiplicação por um escalar, respeitando certas propriedades.
+```markdown name=README.md
+# 🧮 Álgebra Linear
 
-### Transformações Lineares
-Uma transformação linear é uma função entre dois espaços vetoriais que preserva a operação de adição e a multiplicação por um escalar. Por exemplo, se \(T\) é uma transformação linear, então para quaisquer vetores \(v\) e \(w\) e qualquer escalar \(c\), temos:
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![Math](https://img.shields.io/badge/Matemática-Álgebra%20Linear-purple)
+![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-- \(T(v + w) = T(v) + T(w)\)
-- \(T(cv) = cT(v)\)
+## 📌 Descrição
 
-### Sistemas de Equações Lineares
-Um sistema de equações lineares é um conjunto de equações que envolvem as mesmas variáveis. A solução do sistema é o conjunto de valores que satisfaz todas as equações simultaneamente. Métodos como eliminação de Gauss e a regra de Cramer são utilizados para resolver esses sistemas.
+Repositório dedicado ao estudo e implementação prática de conceitos de Álgebra Linear através de código Python. Contém exemplos, exercícios acadêmicos e aplicações reais de álgebra linear, servindo tanto para aprendizado quanto como referência para desenvolvimentos futuros em machine learning e computação científica.
 
-## Aplicações da Álgebra Linear
-A Álgebra Linear tem aplicações em várias áreas, como:
-- **Ciência de Dados**: Análise e manipulação de grandes conjuntos de dados.
-- **Computação Gráfica**: Manipulação de imagens e representações gráficas.
-- **Engenharia**: Modelagem de sistemas físicos e análise de estruturas.
+## ✨ Funcionalidades
 
-## Conclusão
-A Álgebra Linear é uma ferramenta poderosa e essencial para muitos campos do conhecimento. Seu domínio pode abrir portas para diversas oportunidades acadêmicas e profissionais.
+- 📐 **Vetores**: Operações vetoriais, produto escalar, produto cruzado
+- 📊 **Matrizes**: Operações matriciais, multiplicação, transposição, determinante
+- 🔄 **Transformações Lineares**: Implementação de transformações geométricas
+- 📈 **Aplicações Práticas**: Previsão de preços, análise de dados
+- 🎯 **Conceitos Iniciais**: Fundamentos e teoria básica
+- 🎓 **Materiais Acadêmicos**: Exercícios da faculdade com soluções
+- 🎮 **Projetos Interativos**: Exemplo de jogo de adivinhação
+
+## 🛠️ Tecnologias
+
+- **Python** 3.8 ou superior
+- **NumPy**: Computação numérica e operações matriciais
+- **Matplotlib**: Visualização de dados
+- **SciPy**: Computação científica avançada
+- **Pandas**: Manipulação de dados tabulares
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+
+- Python 3.8 ou superior
+- pip (gerenciador de pacotes Python)
+- Git instalado
+
+### Passos de Instalação
+
+1. **Clone o repositório**
+   ```bash
+   git clone https://github.com/arthurresendes/Algebra-Linear.git
+   cd Algebra-Linear
