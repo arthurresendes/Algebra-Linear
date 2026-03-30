@@ -8,8 +8,15 @@ print(soma)
 c = np.array([[1,2,3],[4,5,6]])
 d = np.array([[1,2],[3,4],[5,6]])
 
-multi = c @ d
-print(multi)
+multicxd = c @ d
+multidxc = d @ c
+print(multicxd)
+print(multidxc)
+
+a_normal = np.array([[1,-1], [2,0]])
+a_inv = np.linalg.inv(a_normal)
+
+print(a_inv)
 
 matriz2x2 = np.array([[1,2],[3,4]])
 print(round(np.linalg.det(matriz2x2)))
