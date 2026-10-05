@@ -23,7 +23,6 @@ Repositório dedicado ao estudo e implementação prática de conceitos de Álge
 - 📈 **Aplicações Práticas**: Previsão de preços, análise de dados
 - 🎯 **Conceitos Iniciais**: Fundamentos e teoria básica
 - 🎓 **Materiais Acadêmicos**: Exercícios da faculdade com soluções
-- 🎮 **Projetos Interativos**: Exemplo de jogo de adivinhação
 
 ## 🛠️ Tecnologias
 
